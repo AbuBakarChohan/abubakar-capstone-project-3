@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif; 
+}
+.menu-icon {
+  color: #343a40;
+cursor: pointer;
+}
+.search-bar {
+    max-width: 400px;
+} 
+.sidebar .close-btn {
+    cursor: pointer;
+}
+  @media (max-width: 575.98px) {
+    .carousel-item {
+      height: 50vh; 
+      
+    }
+    .carousel-item img {
+      height: 50vh;
+    }
+    
+.hoverme {
+
+  margin-left: 100px;
+width: 10%;
+} 
+
+  }
+  @media (max-width: 767.98px) {
+    .carousel-item {
+      height: 60vh; 
+    }
+    .carousel-item img {
+      height: 60vh;
+    }
+    
+  }
+  @media (min-width: 992px) {
+    .carousel-item {
+      height: 60vh;
+    }
+    .carousel-item img {
+      height: 70vh;
+    }
+    
+  }
+  @media (min-width: 1200px) {
+    .carousel-item {
+      height: 70vh; 
+    }
+    .carousel-item img {
+      height: 70vh;
+    }
+    
+  } 
+  
+
+  @media (max-width: 768px) {
+    .container {
+        overflow-x: auto;
+        scrollbar-width: thin;
+        scrollbar-color: #d1d1d1 #f7f7f7;
+    }
+    .container::-webkit-scrollbar {
+        height: 8px;
+    }
+    .container::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    .container::-webkit-scrollbar-thumb {
+        background-color: #e7e7e7;
+        border-radius: 10px;
+        border: 2px solid #f1f1f1;
+    }
+}
+
+
+
+.lifestyle-icon {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+.gluten-free { background-color: #fff4e6; }
+.vegan { background-color: #e6f7f1; }
+.plant-based { background-color: #e6f0ff; }
+.keto { background-color: #ffe6e6; }
+
+
+  
+  
+
+
+
+
+.heart:hover{
+  animation: heartbeat 0.8s ease-in-out infinite;
+}
+
+@keyframes heartbeat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  75% {
+    transform: scale(1.2);
+  }
+}
+
+.product-nam:hover{
+  text-decoration: underline;
+
+  
+}
+.plus{
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  position: absolute;
+  top: 160px;
+  right: 60px;
+  color: rgb(173, 171, 171);
+}
+
+.plus:hover{
+  border: none;
+  position: absolute;
+  top: 160px;
+  right: 60px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  background-color: red;
+  color: white;
+  
+}
+.lines:hover{
+ text-decoration:underline;
+}
+
+
+
+
+
+
+
